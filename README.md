@@ -20,6 +20,7 @@ sudo gem install cocoapods
 - Follow this link: https://reactnative.dev/docs/getting-started    
 - Detailed code in this project can be viewed in folder **1. AwesomeProject**   
 - See hello world app below:
+
 ![demo](step1.png)    
 
 
