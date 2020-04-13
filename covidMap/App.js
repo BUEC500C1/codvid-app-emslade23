@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
+import MapView from 'react-native-maps'
 
 const instructions = Platform.select({
   ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
@@ -8,11 +9,15 @@ const instructions = Platform.select({
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.welcome}>Welcome to React Native!</Text>
-      <Text style={styles.instructions}>To get started, edit App.js</Text>
-      <Text style={styles.instructions}>{instructions}</Text>
-    </View>
+     <MapView        
+        style={{flex: 1}}  
+        initialRegion={{ 
+          latitude: 42.3505,
+          longitude: -71.1054,
+          latitudeDelta: 0.09,
+          longitudeDelta: 0.06}}          
+        showsUserLocation={true}     
+      />  
   );
 }
 
