@@ -6,10 +6,12 @@
 brew install node
 brew install watchman
 
-'''
+```
+
+
 Install XCode command line tools and cocoapods
 
-'''
+```
 sudo gem install cocoapods
 ```
      
