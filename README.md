@@ -24,3 +24,6 @@ sudo gem install cocoapods
 ![demo](step1.png)    
 
 
+#### Step 3: Add Apple map using react-native-maps
+
+![demo](step3.png)
