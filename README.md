@@ -19,6 +19,6 @@ sudo gem install cocoapods
 #### Step 2: Build and run Hello App on emulator and phone [Done]      
 - Follow this link: https://reactnative.dev/docs/getting-started    
 - Detailed code in this project can be viewed in folder **1. AwesomeProject**   
-- The result image shows like below:    
+- The result image shows like below: ![demo](step1.png)    
 
 
