@@ -24,6 +24,12 @@ sudo gem install cocoapods
 ![demo](step1.png)    
 
 
-#### Step 3: Add Apple map using react-native-maps
+#### Step 3: Add Apple map using react-native-maps [Done]
 
 ![demo](step3.png)
+
+#### Step 4: Pull data from API
+![](step4.png)
+
+#### Step 5: Final Application
+![](covidapp.gif)
